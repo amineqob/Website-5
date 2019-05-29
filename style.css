@@ -1,0 +1,592 @@
+
+.side-bar{
+    background-color: rgb(212, 212,212);      
+    height: 90vh;
+    position: absolute;
+    right: 0px;
+    top: 10vh;
+    width: 12%;
+    text-align: center;
+    
+ 
+
+                    
+
+
+}
+
+
+/***word-spacing:is when you want to make spaces between words**/
+/**letter-spacing:is when you want to make spaces between letters!**/
+
+
+                       
+.side-bar a{
+
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 7px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-top: 20px;
+
+}
+
+.introTextColor, .introText {
+    margin-bottom: 5px;
+
+
+}
+
+
+
+#updateButton{
+
+    background-color: blue;
+  
+   
+   
+}
+.newBackgrounds{
+
+    display: flex;
+    justify-content: space-around;
+    background-color: #b2b2b2;;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    
+    
+
+}
+ .newBackgrounds > div {
+
+    width: 20%;
+    height: 60px;
+    background-color: red;
+    background-size: cover;
+    cursor: pointer;
+ }
+
+ .addBorder{
+
+     border: 4px solid red;
+
+ }
+
+
+ 
+
+
+
+/* ------------------Navigation section ----------------*/
+
+nav{
+	background-color: lightblue;
+	
+}
+.menu ul{
+	
+	
+	list-style: none;
+	padding-left: 0px;
+	margin: 0px;
+	
+	/****line height is seperating 2 line above each other**/
+}
+.menu ul li{
+	
+	
+	display: inline-block;
+	margin-right: 20px;
+	
+}
+.logo,.menu{
+	
+	
+	display: inline-block;
+	margin: 20px;
+	
+}
+.menu{
+	
+	float: right;
+}
+.menu ul li a {
+	
+	text-decoration: none;
+	padding: 30px 10px 25px 10px;
+}
+.menu ul li a:hover{
+	
+	background-color: blue;
+    transition: all 0.5s ease;
+	color: white;
+}
+body{
+	
+	margin: 0px;
+    position: relative;
+    padding: 0px;
+    width: 100%;
+    font-size: 17px;
+    line-height: 1.7;
+    font-weight: 400;
+
+}
+
+/*------------Header section-----------*/
+
+header{
+	
+	
+	background-image: url(background%202.jpg);
+	height: 500px;
+	background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+}
+header p{
+	
+	margin: 0px;
+}
+.hero-container{
+	
+	text-align: center;
+	padding-top: 100px;
+	
+}
+
+.btn-work{
+	
+	
+	background-color: green;
+	color: white;
+	margin: 15px 10px;
+	
+}
+.btn-contact{
+	
+	
+	background-color: white;
+	color: green;
+}
+#papa{
+
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.btn-work, .btn-contact{
+	border-radius: 20px;
+	font-weight: bold;
+	padding: 10px 25px;
+	display: inline-block;
+	text-decoration: none;
+ 	
+}
+
+.btn-work:hover{
+	
+	
+	background-color: white;
+	color: green;
+	transition: all 0.5s ease;
+	
+}
+
+.btn-contact:hover{
+	
+	
+	background-color: green;
+	color: white;
+	transition: all 0.5s ease;
+	
+}
+
+/*------------about me section-----------*/
+* {
+
+    box-sizing:border-box; /*--this help to all padding and width,height,margin,border to remain the same ,Width and height apply to all parts of the element: content, padding and borders
+    
+    Hi TwoBuck Chuck, if you check by the end of the video, probably you are forgetting to add the " * { box-sizing: border-box; } " The star " * " means we are selecting everything on the page, and the box-sizing: border-box means that when every time we are setting a width it will be included with padding, so for example if you dont use this css command and you set the width of a div to 50% and you add a padding of lets say 50 px, the div width will be 50% of the page plus 50 px, so this is not exactly 50%... but with the box-sizing: border-box, the padding will be included in the width that you set before, hope it helps :)﻿
+    ----*/
+}
+
+.about-me {
+    
+
+
+    width:100%;
+    padding-top:70px;
+    padding-bottom:70px;
+    
+}
+
+
+.about-me .col-left, .about-me .col-right {
+    
+    width:50%;
+    float:left;
+
+
+}
+
+.about-me .col-left img {
+
+    
+    max-width:100%;
+   
+
+}
+    .about-me h2 {
+        text-align: center;
+        color: black;
+        text-transform: uppercase;
+        position: relative;
+        margin-bottom: 30px
+    }
+
+   
+.about-me h2:after {
+    content:'';
+    position:absolute;
+    width:80px;
+    height:2px;
+    margin-left:-40px;
+    left: 50%;
+    bottom: 0px;
+    background-color:#85af4b;
+
+
+
+     }
+    .about-me:after {
+        content: '';
+        display: block;
+        clear: both
+    }
+
+
+
+ .about-me  a { 
+     text-decoration:none;
+     border-radius:20px;
+     background-color:black;
+     color:white;
+     padding:10px 25px;
+     display:inline-block;
+     border:1px solid white;
+
+ }
+
+ .about-me a:hover {
+
+     background-color:red;
+     color:white;
+    
+ }
+ .about-me .col-left {
+
+     padding-left :10%;
+     padding-right:10%;
+ }
+
+/* ------------------skills section ----------------*/
+
+ .my-skills{
+
+     background-color: #e2e2e2;
+     padding-top:50px;
+     padding-bottom:50px;
+     text-align:center;
+    }
+ 
+
+ .my-skills .skills-left, .my-skills .skills-center, .my-skills .skills-right{
+
+     display:inline-block;
+     float:left;
+     width:33.3333333333%;
+     padding-left:2%;
+     padding-right:2%;
+   
+
+ }
+
+
+
+    .my-skills h2 {
+        text-transform: uppercase;
+        position: relative;
+
+    }
+
+    .my-skills h2:after {
+        content: '';
+        position: absolute;
+        width: 80px;
+        height: 2px;
+        margin-left: -40px;
+        left: 50%;
+        bottom: 0px;
+        background-color: #85af4b
+       
+    }
+
+    .my-skills:after {
+        content: '';
+        display: block;
+        clear: both
+    }
+
+   
+
+    .my-skills i  {
+        color:green;
+        font-size:60px;
+  
+    }
+/* ------------------projects section ----------------*/
+
+.my-projects {
+    background-color: white;
+    text-align: center;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.my-projects:after{
+
+    content:'';
+    display:block;
+    clear:both;
+}
+
+.my-projects h2{
+
+    text-transform: uppercase;
+    padding-top:50px;
+    padding-bottom:50px;
+    margin-top:0px;
+    position:relative;
+}
+
+.my-projects h2:after {
+        content: '';
+        position: absolute;
+        width: 80px;
+        height: 2px;
+        margin-left: -40px;
+        left: 50%;
+        bottom: 50px;
+        background-color: #85af4b;
+    }
+
+.my-projects .project1, .my-projects .project2, .my-projects .project3{
+
+    width:30%;
+    float:left;
+    height:300px;
+    background-color:red;
+    position:relative;
+    overflow:hidden;
+
+
+
+}
+.my-projects .project1 {
+        margin-left: 2%;
+        margin-right: 1.5%;
+        background-image: url(photo1.jpg);
+        background-size: cover
+    }
+ .my-projects .project2 {
+        margin-left: 1%;
+        margin-right: 1%;
+        background-image: url(photo2.jpg);
+        background-size: cover
+    }
+ .my-projects .project3 {
+        margin-left: 1.5%;
+        margin-right: 2%;
+        background-image: url(photo3.jpg);
+        background-size: cover
+    }
+
+ .my-projects .overlay {
+     width:100%;
+     height:100%;
+     position:absolute;
+   
+     padding-top:310px;
+ }
+
+    .my-projects .overlay:hover {
+        background-color: rgba(0,0,0,0.6);
+        padding-top:130px;
+        transition: all 0.5s ease;
+    }
+
+ .overlay a {
+
+     display:inline-block;
+     font-size:18px;
+     padding: 10px 20px;
+     border: 1.5px solid grey;
+     text-decoration:none;
+     color:white;
+     font-weight:bold;
+     border-radius:70px;
+
+
+
+ }
+
+/* ------------------contact section ----------------*/
+
+.contact-me  {
+    text-align: center;
+    background-color: #e2e2e2;
+    padding-top:50px;
+    padding-bottom:50px;
+
+}
+    .contact-me:after {
+        content: '';
+        display: block;
+        clear: both
+    }
+
+  
+    
+
+.contact-me h2 {
+        text-transform: uppercase;
+        margin-top: 0px;
+        position:relative;
+    }
+
+.contact-me h2:after {
+           content: '';
+            position: absolute;
+            width: 80px;
+            height: 2px;
+            margin-left: -40px;
+            left: 50%;
+            bottom: 0px;
+            background-color: #85af4b
+        }
+
+.social-container{
+
+    width:80%;
+    margin:0 auto;
+    text-align:left;
+
+
+}
+
+
+.social-container i {
+
+    margin-top:17px;
+    float:left;
+    margin-right:20px;
+    font-size:24px;
+    color:green;
+ 
+  
+}
+
+.first,
+.second,
+.third {
+
+    display: inline-block;
+    float: left;
+    width: 33.3333333333%
+
+}
+
+.third p{
+
+    margin-bottom:0px;
+    margin-top:7px;
+}
+
+  .text-bold{
+
+      color:#333;
+      font-weight:bold;
+  }  
+
+ .line1 a {
+
+     text-decoration:none;
+ }
+
+/*------------footer section-----------*/
+
+footer{
+
+    background-color:#777777;
+    color:#333;
+    padding:20px 40px;
+
+
+}
+
+.footer-text{
+
+    float:left;
+}
+
+.social{
+    float:right;
+    margin-top:12px;
+   
+}
+ .social  i {
+      font-size: 25px;
+      padding: 10px 10px;
+    
+
+}
+
+
+.footer-text i{
+
+   color:red;
+}
+
+.footer-text p{
+
+    margin-top:0px;
+    margin-bottom:0px;
+
+}
+
+footer:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+.social i:hover{
+    color:white;
+    background-color:#333;
+    transition: all 0.5s ease;
+
+
+}
+
+.social a:visited{
+
+    color:#333;
+}
+
+
+
+
+
